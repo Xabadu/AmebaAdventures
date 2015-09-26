@@ -4,7 +4,7 @@ AmebaAdventures.Game = function(game) {
 
 AmebaAdventures.Game.prototype = {
 	create: function() {
-
+		game.physics.startSystem(Phaser.Physics.ARCADE);
 	},
 
 	update: function() {
