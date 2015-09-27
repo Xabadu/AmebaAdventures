@@ -5,6 +5,7 @@ AmebaAdventures.MainMenu.prototype = {
 
 	create: function () {
 		this.game.stage.backgroundColor = '#ffffff';
+		this.state.start('Game');
 	},
 
 	play: function() {
