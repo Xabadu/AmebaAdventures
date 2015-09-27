@@ -5,7 +5,7 @@ AmebaAdventures.Preloader = function(game) {
 AmebaAdventures.Preloader.prototype = {
 
     preload: function() {
-        this.load.bitmapFont('kenneyfont', 'fonts/kenneyspace_72/kenneyspace_72.png', 'fonts/kenneyspace_72/kenneyspace_72.xml');
+        //this.load.bitmapFont('kenneyfont', 'fonts/kenneyspace_72/kenneyspace_72.png', 'fonts/kenneyspace_72/kenneyspace_72.xml');
     },
 
     create: function() {

@@ -30,6 +30,8 @@ AmebaAdventures.Boot.prototype = {
 
     preload: function () {
         this.load.image('appsbude', 'images/appsbude-logo.jpg');
+        this.load.image('grassGround', 'images/ground.png');
+        this.load.spritesheet('ameba', 'images/ameba.png', 64, 64);
     },
 
     create: function () {
