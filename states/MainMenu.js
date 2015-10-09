@@ -8,7 +8,6 @@ AmebaAdventures.MainMenu.prototype = {
 
 	create: function () {
 		this.game.stage.backgroundColor = '#ffffff';
-
 		gameTitle = game.add.text((game.world.width / 2), (game.world.height / 2) - 200, gameConfig.name, mainMenuConfig.mainTitleFontStyle);
 		gameTitle.anchor.x = 0.5;
 

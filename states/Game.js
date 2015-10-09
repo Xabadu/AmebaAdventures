@@ -26,7 +26,7 @@ AmebaAdventures.Game.prototype = {
 		ameba.body.gravity.y = 300;
 		ameba.body.collideWorldBounds = true;
 
-		ameba.animations.add('walk', '', 1);
+		ameba.animations.add('walk', '', 16);
 
 	    cursors = game.input.keyboard.createCursorKeys();
 	},
